@@ -57,3 +57,4 @@ main p{text-indent: 10px;}
 .firstheader{font-family: EminemFont;}
 .btnrtrn > a{font-family: EminemFont; text-align: center; color: black; display: block; text-decoration: none; padding: 30px; width: 50px; margin: auto;}
 .btnrtrn a:hover{text-decoration: underline;}
+.emtitle{text-align: center; font-family: EminemFont;}
