@@ -1,3 +1,3 @@
 # ghost.html
 
-website made by 3TG
+website created by 3TG
