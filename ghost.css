@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Chakra-Petch;
+    src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+@font-face {
+    font-family: EminemFont;
+    src: url(fonts/MicroFLF.ttf);
+}
+@font-face {
+    font-family: TextFont;
+    src: url(fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat italic;
+    src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@keyframes slide{
+    from{
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.title{font-family: Chakra-Petch; text-align: center;}
+body{background-color: gray;}
+main{margin: auto; display: block; background-color: white; color: black; box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.397); border-radius: 0px 0px 10px 10px; width: 80vw; padding-top: 1px;}
+#titleheader{background-color: black; padding: 30px; width: 75.5vw; margin: auto;}
+#eminemtitle{color: white; text-align: center; font-family: EminemFont; display: block; width: auto; height: auto; font-size: 40px;}
+#eminemtitle:hover{color: gray; transition-duration: 0.3s;}
+#eminemtitle > a{text-decoration: none; color: white;}
+#eminemtitle > a:hover{color: gray; transition-duration: 0.3s; text-decoration: none;}
+img.cover{height: 400px; width: 400px; margin: auto; display: block; border-radius: 10px; box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.365);}
+ol{text-align: center;}
+.textsoundtracklist{text-align: center; font-family: sans-serif;}
+.reminder{font-style: italic; font-weight: 600; text-align: center;}
+.badmeetsevil{display: block; margin: auto; width: 500px; height: 500px;}
+#menu{text-align: center;}
+#menu a{text-decoration: none; color: white; padding-left: 20px; padding-right: 20px; font-family: EminemFont;}
+#menu a:hover{color: black; background-color: white; border-radius: 10px; transition-duration: 0.3s;}
+main p{text-indent: 10px;}
+#firstitle{text-align: center; font-family: EminemFont; font-size: 30px;}
+.text{font-family: Chakra-Petch; line-height: 20px;}
+#preface{font-family: montserrat italic; background-color: rgb(145, 157, 158); width: 700px; margin: auto; display: block; border-radius: 10px; height: 200px; text-align: center;}
+#preface p{display: flex; padding: 60px 0px;}
+.footer{background-color: rgb(57, 53, 53); width: 80vw; margin: auto; text-align: center; margin-top: 20px; color: white; height: 40px; padding: 20px 0px; border-radius: 5px;}
+.titleindex{font-family: EminemFont; margin: auto; padding: 30vh 30.9vw;}
+.titleindex img{width: 500px; height: 150px;}
+#animar{animation-name: slide; animation-duration: 2s; animation-fill-mode: forwards;}
+#animarlink{font-family: EminemFont; text-align: center; font-size: 40px; margin: auto; animation-name: slide; transform: translateX(-20px); animation-fill-mode: forwards; animation-duration: 2s;}
+#animarlink a{text-decoration: none; color: black;}
+#animarlink a:hover{color: rgb(63, 56, 56); transition-duration: 0.3s;}
+#em{font-family: EminemFont; text-align: center;}
+.textbio{font-family: Chakra-Petch;}
+.eminem{margin: auto; display: block; border-radius: 10px;}
+.firstheader{font-family: EminemFont;}
+.btnrtrn > a{font-family: EminemFont; text-align: center; color: black; display: block; text-decoration: none; padding: 30px; width: 50px; margin: auto;}
+.btnrtrn a:hover{text-decoration: underline;}
